@@ -9,7 +9,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
     - name: Install Go
-      uses: actions/setup-go@v3
+      uses: actions/setup-go@v5
       with:
         go-version: ${{ matrix.go-version }}
     - name: Set git on win to use LF
@@ -39,7 +39,7 @@ jobs:
         sudo dpkg -i "libonig-dev_${ONIGURUMA_VERSION}-1_amd64.deb"
 
     - name: Install Go
-      uses: actions/setup-go@v3
+      uses: actions/setup-go@v5
       with:
         go-version: ${{ matrix.go-version }}
 
