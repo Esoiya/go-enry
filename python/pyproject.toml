@@ -4,9 +4,9 @@ requires = ["setuptools>=77.0.0", "cffi>=1.15.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "enry"
+name = "enry-python"
 version = "0.2.0"
-description = "Python bindings for go-enry language detector"
+description = "Temporary Python bindings for go-enry language detector"
 readme = "README.md"
 authors = [
     {name = "go-enry contributors"},
@@ -34,7 +34,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/go-enry/go-enry"
-Repository = "https://github.com/go-enry/go-enry"
+Repository = "https://github.com/Esoiya/go-enry"
 Issues = "https://github.com/go-enry/go-enry/issues"
 Documentation = "https://github.com/go-enry/go-enry/tree/master/python"
 
