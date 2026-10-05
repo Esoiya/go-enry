@@ -176,7 +176,7 @@ Generated Rust bindings using a C static library are available at https://github
 
 ## Divergences from Linguist
 
-The `enry` library is based on the data from `github/linguist` version **v9.5.0**.
+The `enry` library is based on the data from `github/linguist` version **v9.7.0**.
 
 Parsing [linguist/samples](https://github.com/github/linguist/tree/master/samples) the following `enry` results are different from the Linguist:
 
